@@ -24,7 +24,10 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@types/node": "^22.10.1",
+=======
+>>>>>>> e6c859a5297af6c58e41e5f2d3f09707048107f0
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "eslint": "^8",
