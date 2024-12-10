@@ -1,0 +1,60 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #ffcc00;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar input {
+  padding: 8px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+h2,
+h3 {
+  color: #333;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  width: 200px;
+  text-align: left;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.product-card h4 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.product-card .precio {
+  font-weight: bold;
+  color: #28a745;
+}
+
+.product-card .descuento {
+  color: #ff6347;
+}

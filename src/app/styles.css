@@ -1,0 +1,108 @@
+/* Importa los estilos de slick */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+body {
+  background-color: rgb(244, 244, 244);
+  color: rgb(0, 0, 0);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: rgb(225, 237, 50);
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo img {
+  max-height: 70px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90vh;
+  padding: 0 5%;
+}
+
+.text-container {
+  max-width: 40%;
+}
+
+.text-container h1 {
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.login-container {
+  text-align: center;
+  background-color: white;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 340px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 0.5em;
+  margin: 1em 0;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.login-container button {
+  background-color: rgb(14, 110, 255);
+  color: white;
+  padding: 0.75em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1em;
+}
+
+.login-container button:hover {
+  text-align: center;
+  background-color: rgb(15, 16, 19);
+}
+
+.buttoncc {
+  text-align: center;
+  font-size: 12px;
+  color: blue;
+
+  /*
+    background-color: rgb(52, 131, 250);
+  color: white;
+  padding: 0.75em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1em;*/
+}
+
+.cuadroderegristro {
+  text-align: center;
+}
+.contenedordatos {
+  text-align: center;
+}
+
+.registrocss {
+  background-color: rgb(188, 188, 188);
+  color: rgb(196, 189, 189);
+  padding: 0.6em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 80%;
+  font-size: 1em;
+}
