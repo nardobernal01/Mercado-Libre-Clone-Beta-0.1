@@ -230,13 +230,14 @@ const App: React.FC = () => {
           }
         />
 
+        {/* Ruta para la página de inicio de sesión */}
         <Route path="/login" element={<LoginPage />} />
         <Route path="/vender" element={<Vender />} />
 
         <Route path="/nuestras-categorias" element={<NuestrasCategorias />} />
         <Route path="/compra-protegida" element={<ComprasProtegidas />} />
         <Route path="/mas-vendidos" element={<MasVendidos />} />
-
+        {/* Ruta para el modal */}
         <Route path="/ingresa-tu-ubicacion" element={<CodigoPostalModal />} />
 
         <Route path="/registrarse" element={<RegisterPage />} />
