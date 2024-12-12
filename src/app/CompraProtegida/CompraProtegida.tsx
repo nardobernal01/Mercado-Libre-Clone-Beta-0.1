@@ -3,6 +3,8 @@
 import React, { useState } from "react";
 import { Dialog } from "@headlessui/react";
 
+import Image from "next/image";
+
 const App: React.FC = () => {
   // Estado para controlar la apertura de los diálogos
   const [isInfoOpen, setIsInfoOpen] = useState(false);
@@ -18,10 +20,13 @@ const App: React.FC = () => {
     <div className="bg-gray-100">
       {/* Barra de navegación */}
       <header className="bg-yellow-400 p-4 text-center">
-        <img
+        <Image
           src="https://logodownload.org/wp-content/uploads/2018/10/mercado-libre-logo.png"
           alt="Mercado Libre Logo"
-          className="mx-auto h-12"
+          width={50}
+          height={50}
+          layout="responsive"
+          className="mx-auto"
         />
         <h2 className="text-black text-xl mt-4">Compra Protegida</h2>
       </header>

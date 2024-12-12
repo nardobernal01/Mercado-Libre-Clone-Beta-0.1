@@ -11,6 +11,7 @@ import NuestrasCategorias from "./NuestraCategoria/NuestrasCategorias";
 import Vender from "./Vender/vender";
 import MisCompras from "./MisCompras/mis-compras";
 import NoPurchases from "./NoPurchases";
+import Image from "next/image";
 
 // Importa react-slick y sus estilos
 import Slider from "react-slick";
@@ -78,9 +79,11 @@ const App: React.FC = () => {
               )}
               <header className="bg-yellow-400 p-4 flex items-center justify-between">
                 <div className="flex items-center space-x-4">
-                  <img
+                  <Image
                     src="https://logodownload.org/wp-content/uploads/2018/10/mercado-libre-logo.png"
                     alt="Mercado Libre Logo"
+                    width={150}
+                    height={150}
                     className="h-8"
                   />
                   <input

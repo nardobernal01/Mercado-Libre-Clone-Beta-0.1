@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 
 const categories = [
   {
@@ -59,9 +60,11 @@ const App: React.FC = () => {
       {/* Barra de navegación */}
       <header className="bg-yellow-400 p-4 flex items-center justify-between">
         <a href="./" className="h-12">
-          <img
+          <Image
             src="https://logodownload.org/wp-content/uploads/2018/10/mercado-libre-logo.png"
             alt="Mercado Libre Logo"
+            width={200}
+            height={300}
             className="h-12"
           />
         </a>

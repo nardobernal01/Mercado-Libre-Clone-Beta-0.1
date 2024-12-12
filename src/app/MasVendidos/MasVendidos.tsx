@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 interface Product {
   id: number;
@@ -150,9 +151,11 @@ const App: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-100">
       <header className="bg-yellow-400 p-4 text-center">
-        <img
+        <Image
           src="https://logodownload.org/wp-content/uploads/2018/10/mercado-libre-logo.png"
           alt="Mercado Libre Logo"
+          width={200}
+          height={300}
           className="mx-auto h-12"
         />
         <h2 className="text-black text-xl mt-4">Descubre los más vendidos</h2>

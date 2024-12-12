@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { Link } from "react-router-dom"; // Usa Link para la navegación
+import Image from "next/image";
 
 const LoginPage: React.FC = () => {
   const [showDialog, setShowDialog] = useState(false); // Controla si el diálogo es visible
@@ -19,9 +20,11 @@ const LoginPage: React.FC = () => {
     <div className="min-h-screen bg-gray-100 flex flex-col">
       {/* Encabezado con el logo */}
       <header className="bg-yellow-400 w-full p-4 flex justify-center shadow-md">
-        <img
+        <Image
           src="https://logodownload.org/wp-content/uploads/2018/10/mercado-libre-logo.png"
           alt="Mercado Libre Logo"
+          width={200}
+          height={300}
           className="h-16" // Aumentar el tamaño del logo
         />
       </header>
