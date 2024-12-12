@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { Link } from "react-router-dom"; // Usa Link para navegar
-
+import Image from "next/image";
 const RegisterPage: React.FC = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -32,10 +32,12 @@ const RegisterPage: React.FC = () => {
     <div className="min-h-screen bg-gray-100 flex flex-col">
       {/* Banner Amarillo */}
       <div className="bg-yellow-400 p-4 text-center">
-        <img
+        <Image
           src="https://logodownload.org/wp-content/uploads/2018/10/mercado-libre-logo.png"
           alt="Mercado Libre Logo"
           className="mx-auto h-12"
+          width={200}
+          height={300}
         />
       </div>
 

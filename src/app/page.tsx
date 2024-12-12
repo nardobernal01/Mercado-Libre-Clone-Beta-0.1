@@ -117,17 +117,21 @@ const App: React.FC = () => {
               <div className="text-center p-8">
                 <Slider {...settings}>
                   <div>
-                    <img
+                    <Image
                       src="https://http2.mlstatic.com/D_NQ_929406-MLA79524525195_092024-OO.webp"
                       alt="Banner 3"
+                      width={200}
+                      height={300}
                       className="mx-auto mb-4 w-full h-auto"
                     />
                   </div>
 
                   <div>
-                    <img
+                    <Image
                       src="https://http2.mlstatic.com/D_NQ_783607-MLA81111769547_122024-OO.webp"
                       alt="Banner 3"
+                      width={200}
+                      height={300}
                       className="mx-auto mb-4 w-full h-auto"
                     />
                   </div>
@@ -203,9 +207,11 @@ const App: React.FC = () => {
                       key={product.id}
                       className="bg-white p-4 rounded shadow-lg"
                     >
-                      <img
+                      <Image
                         src={product.imageUrl}
                         alt={product.title}
+                        width={200}
+                        height={300}
                         className="w-full h-auto"
                       />
                       <h4 className="text-xl font-semibold mt-2">
@@ -241,9 +247,11 @@ const App: React.FC = () => {
                       key={product.id}
                       className="bg-white p-4 rounded shadow-lg"
                     >
-                      <img
+                      <Image
                         src={product.imageUrl}
                         alt={product.title}
+                        width={200}
+                        height={300}
                         className="w-full h-auto"
                       />
                       <h4 className="text-xl font-semibold mt-2">
@@ -296,9 +304,11 @@ const App: React.FC = () => {
                       key={index}
                       className="bg-white p-4 rounded shadow-md mb-4"
                     >
-                      <img
+                      <Image
                         src={item.imageUrl}
                         alt={item.title}
+                        width={200}
+                        height={300}
                         className="w-32 h-auto"
                       />
                       <h4 className="text-xl font-semibold mt-2">
