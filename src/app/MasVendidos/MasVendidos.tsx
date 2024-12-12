@@ -167,10 +167,12 @@ const App: React.FC = () => {
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
           {phoneProducts.map((product) => (
             <div key={product.id} className="bg-white p-4 rounded shadow-lg">
-              <img
+              <Image
                 src={product.imageUrl}
                 alt={product.title}
                 className="w-full h-auto"
+                width={200}
+                height={300}
               />
               <h4 className="text-xl font-semibold mt-2">{product.title}</h4>
               <p className="text-gray-600">{product.description}</p>
@@ -189,10 +191,12 @@ const App: React.FC = () => {
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
           {fashionProducts.map((product) => (
             <div key={product.id} className="bg-white p-4 rounded shadow-lg">
-              <img
+              <Image
                 src={product.imageUrl}
                 alt={product.title}
                 className="w-full h-auto"
+                width={200}
+                height={300}
               />
               <h4 className="text-xl font-semibold mt-2">{product.title}</h4>
               <p className="text-gray-600">{product.description}</p>

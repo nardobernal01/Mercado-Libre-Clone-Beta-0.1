@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
+
 const nextConfig = {
   images: {
-    domains: ["logodownload.org"], // Asegúrate de incluir este dominio
+    domains: ["logodownload.org", "http2.mlstatic.com"], // Asegúrate de incluir este dominio
   },
 };
 
